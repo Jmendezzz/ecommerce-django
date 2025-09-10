@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Categories{% endblock %}
+
+{% block content %}
+    <h1>Categories</h1>
+    <div class="category-list">
+        {% for category in categories %}
+            <div class="category-list__item">
+                <h5 class="category-list__title">{{ category.name }}</h5>
+                <a href="/{{ category.slug }}/" class="btn btn-primary button">View Products</a>
+            </div>
+        {% empty %}
+            <p>No categories available.</p>
+        {% endfor %}
+    </div>
+{% endblock %}

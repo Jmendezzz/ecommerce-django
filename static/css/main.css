@@ -1,0 +1,12 @@
+/* static/css/main.css */
+
+/* Base styles */
+@import url("base.css");
+
+/* Components */
+@import url("navbar.css");
+@import url("footer.css");
+
+/* Pages */
+@import url("categories.css");
+@import url("products.css");
