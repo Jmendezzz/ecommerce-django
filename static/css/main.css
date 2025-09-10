@@ -1,5 +1,3 @@
-/* static/css/main.css */
-
 /* Base styles */
 @import url("base.css");
 
@@ -9,4 +7,3 @@
 
 /* Pages */
 @import url("categories.css");
-@import url("products.css");
